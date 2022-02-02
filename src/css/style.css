@@ -1,0 +1,99 @@
+/*Variaveis*/
+:root {
+  --color-red: #e50914;
+  --color-black: #141414;
+  --color-gray: #aaa;
+  --color-white: #fff;
+}
+
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*elementos base*/
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: var(--color-red);
+  font-family: "Arial Black";
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--color-gray);
+  margin: 0 10px;
+  font-size: 15px;
+}
+header nav a:hover {
+  color: #fff;
+}
+
+/* filme principal */
+.filme-principal {
+  font-size: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 50%) 100%),
+    url("../img/capa-mini7.jpg");
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 30px;
+}
+.titulo {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 20px;
+}
+.button {
+  padding: 20px;
+  font-size: 15px;
+  color: var(--color-white);
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.8s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button:hover {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+.button i {
+  margin-right: 8px;
+}
+
+.filme-principal .container {
+  width: 60%;
+}
+.container {
+  margin-left: 20px;
+}
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 10px;
+}

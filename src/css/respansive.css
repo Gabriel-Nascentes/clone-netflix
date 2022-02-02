@@ -1,0 +1,22 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container .titulo {
+    font-size: 30px;
+  }
+  .container .descricao {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 80%;
+  }
+}
